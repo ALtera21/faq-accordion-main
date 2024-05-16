@@ -1,0 +1,111 @@
+@font-face {
+    font-family: myStaticBold;
+    src: url('assets/fonts/static/WorkSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: myStaticSemiBold;
+    src: url('assets/fonts/static/WorkSans-SemiBold.ttf') format('truetype');
+}
+
+body{
+    background-color: lightgray;
+}
+
+.background-desktop{
+    background-image: url("assets/images/background-pattern-desktop.svg");
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    z-index: 0;
+    margin-top: 0;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 100px;
+    box-sizing: border-box;
+}
+
+.white-box{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 100px;
+}
+
+.star-and-faq{
+    display: flex;
+    align-items: center;
+}
+
+.star{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+h1{
+    display: inline-block;
+    font-family: myStaticBold;
+    padding-left: 15px;
+}
+
+#button-1, #button-2, #button-3, #button-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    font-family: myStaticSemiBold;
+    background-color: white;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    text-align: left;
+}
+
+#button-1:hover, #button-2:hover, #button-3:hover,#button-4:hover{
+    color: hsl(292, 42%, 50%);
+    cursor: pointer;
+}
+
+#button-1:focus, #button-2:focus, #button-3:focus,#button-4:focus{
+    color: hsl(292, 42%, 50%);
+    cursor: pointer;
+    outline: none;
+}
+
+#answer-1, #answer-2, #answer-3,#answer-4{
+    font-family: myStaticSemiBold;
+    font-size: 15px;
+    color: hsl(292, 16%, 49%);
+}
+
+@media(max-width: 500px){
+    body{
+        background-color: hsl(292, 42%, 14%);
+    }
+    .background-desktop{
+        background-image: url("assets/images/background-pattern-mobile.svg");
+        background-repeat: no-repeat;
+        position: fixed;
+        z-index: 0;
+    }
+    .white-box{
+        background-color: white;
+        width: 80%;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        margin-bottom: 100px;
+    }
+}
