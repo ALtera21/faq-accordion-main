@@ -10,6 +10,10 @@
 
 body{
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    z-index: 0;
 }
 
 .background-desktop{
@@ -18,15 +22,6 @@ body{
     height: 50%;
     position: fixed;
     z-index: 0;
-    margin-top: 0;
-}
-
-.container{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    top: 100px;
-    box-sizing: border-box;
 }
 
 .white-box{
@@ -38,6 +33,9 @@ body{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-bottom: 100px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    z-index: 1;
 }
 
 .star-and-faq{
@@ -98,12 +96,6 @@ h1{
         position: fixed;
         z-index: 0;
     }
-
-.container{
-    top: 10px;
-    width:80%;
-    height:800px;
-}
 
     .white-box{
         background-color: white;
