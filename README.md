@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Here is the solution on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Here is the live site](https://your-live-site-url.com)
+- Solution URL: [Here is the solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-desktop-first-naigation-using-up-and-down-arrow-key-tgQlpdpKKu)
+- Live Site URL: [Here is the live site](https://altera21.github.io/faq-accordion-main/)
 
 ## My process
 
