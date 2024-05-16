@@ -45,6 +45,7 @@ Alright, here goes my second challenge i took from Frontend Mentor
 
 5. When i add the mediaquery to make the mobile version, i found out that the challenge gave me another desktop backgroud for the mobile version, when i add the image, i realize that the edge of the screen does not covered by the background image, i tried to put the background image back at the body, it did coverd every edge on the screen, but it broke, the background height follows the whitebox's height, i returned back to the img tag and try to make the mobile version looked a little bit better, i add a background color similar with the color of the image background, but the image had a slight miss alignment, it's like the image had a border, so i change the tag from img to div, and it looked much better, you can try to change the div tag (.background-desktop) to img and see what i mean, if nothing happened, great! At least, it only does that on my devices.
 
+6. 3 hours after the initial deployment, there was a bug for mobile mode, the container was cut off of the bottom edges, i almost go insane while looking for the cause, but it turns out that the background image desktop had div tag and need to be closed with div again, right now, the container is useless and i removed it, 
 ### Built with
 
 - no semantic, div is simpler for this one, at least for me, the only semantic is footer
