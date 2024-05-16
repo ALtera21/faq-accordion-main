@@ -87,13 +87,8 @@ h1{
 }
 
 @media(max-width: 500px){
-    body{
-        background-color: hsl(292, 42%, 14%);
-    }
-
     .background-desktop{
         background-image: url("assets/images/background-pattern-mobile.svg");
-        background-repeat: no-repeat;
         position: fixed;
         right: 0;
         width: 100%;
