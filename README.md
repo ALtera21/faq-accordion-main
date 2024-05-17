@@ -17,6 +17,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ## Overview
 
+I did this for 7 hours nonestop, and i am tired.
+
 ### The challenge
 
 Users should be able to:
